@@ -1,0 +1,131 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=DM+Sans&family=Josefin+Slab:wght@200&family=Noto+Serif+Khojki&family=Nunito+Sans&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,700&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ 
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+ul li{
+  font-family: 'Amiri Quran', serif;
+}
+
+ol,ul{
+  padding-left: 0px;
+}
+
+.footer-top{
+   margin-top: -1%;
+}
+
+.footer-top .list-item ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+
+.footer_head{
+  color:#DB4521;
+}
+
+
+.list-item   a ,.paratext {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer-outer{
+    background-image: url("images/v31.svg");
+    background-size: cover;
+    height: 200px;
+   
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    width: 100%;   
+}
+
+.tourpackage_div{
+  padding-left: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+  .list-item{
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .contactus{
+    text-align: center;
+    
+  }
+
+  .footer_logo{
+   
+    margin-bottom: 30px;
+  
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .footer-outer{
+    height: 80px;
+
+  }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+ 
+  .list-item{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer_logo{
+    text-align: center;
+    margin-bottom: 20px
+
+  }
+
+  .icons{
+    margin-right: 10px;
+  }
+
+ 
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:912px){
+
+  .footer-outer{
+    height: 135px;
+
+  }
+  
+
+}
+
+
+
+
+
+
